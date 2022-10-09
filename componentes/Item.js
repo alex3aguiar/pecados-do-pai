@@ -1,5 +1,6 @@
-function Item(texto,data,imagem) {
-    return <div className="timeline__item timeline__item--right">
+function Item(texto,data,imagem, esquerda) {
+    return <div className={`timeline__item timeline__item--${esquerda ? "left" : "right"}`}>
+         
         <div className="timeline__item__inner">
             <div className="timeline__content__wrap">
                 <div className="timeline__content">
