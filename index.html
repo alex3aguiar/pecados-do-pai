@@ -36,28 +36,10 @@
         </div>
     </div>
     <div id="mydiv"></div>
-
-    <script type="text/babel">
-        function Item(texto,data,imagem) {
-            return <div class="timeline__item timeline__item--right">
-                <div class="timeline__item__inner">
-                    <div class="timeline__content__wrap">
-                        <div class="timeline__content">
-                            <h2>{data}</h2>
-                            <p>{texto}</p>
-                            <figure class="figure">
-                                <img src={imagem}
-                                    class="figure-img img-fluid rounded" alt="..."/>
-                            </figure>
-                        </div>
-                    </div>
-                </div>
-            </div>;
-        }
-        const  item = Item(12323,12323,"https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg" )
+    <script src="componentes/ItemList.js" type="text/babel"></script>
+    <script src="componentes/Item.js" type="text/babel"></script>
+    <script src="componentes/App.js" type="text/babel"></script>
       
-        ReactDOM.render(  [item,item,item,item,item], document.getElementById('timeline__items'))
-    </script>>
 
 </body>
 
