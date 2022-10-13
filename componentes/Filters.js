@@ -1,6 +1,14 @@
 function Filters() {
+    
+    const {search, setSearch} = React.useContext(SearchContext);
     return <div>
-        <label for="customRange3" class="form-label">Example range</label>
-        <input type="range" class="form-range" min="1" max={dados.length} step="1" id="customRange3"></input>
+          <input
+           type="text"
+           placeholder="Search a Coin"
+           className="form-control bg-dark text-light border-0 mt-4 text-center w-100 "
+           autoFocus
+          onChange={(e) => setSearch(e.target.value)}
+         />
     </div>
 }
+
