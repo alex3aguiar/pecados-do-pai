@@ -11,36 +11,19 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                Lui
-            </a>
-        </div>
-    </nav>
-    <div class="container mt-5">
-        <form>
-            <div class="mb-3">
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-            </div>
-            <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Filtrar</button>
-        </form>
-        <div class="timeline timeline--loaded" id="timeline-vertical" style="opacity: 1;">
-            <div class="timeline__wrap">
-                <div class="timeline__items" id="timeline__items"></div>
-            </div>
-        </div>
-    </div>
+    
     <div id="mydiv"></div>
+    <script src="dados.js" type="text/babel"></script>
+    <script src="componentes/Filters.js" type="text/babel"></script>
     <script src="componentes/ItemList.js" type="text/babel"></script>
     <script src="componentes/Item.js" type="text/babel"></script>
     <script src="componentes/App.js" type="text/babel"></script>
       
-
+    <style>
+        .line-break {
+  white-space: pre-line;
+}
+        </style>
 </body>
 
 </html>
