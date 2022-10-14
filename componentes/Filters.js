@@ -1,14 +1,27 @@
 function Filters() {
-    
-    const {search, setSearch} = React.useContext(SearchContext);
+
+    const { search, setSearch,sorted, setSorted } = React.useContext(SearchContext);
+   
+
     return <div>
-          <input
-           type="text"
-           placeholder="Search a Coin"
-           className="form-control bg-dark text-light border-0 mt-4 text-center w-100 "
-           autoFocus
-          onChange={(e) => setSearch(e.target.value)}
-         />
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Pesquisa</label>
+                <input type="text" class="form-control" placeholder="Pesquisa" onChange={(e) => setSearch(e.target.value)} />
+            </div>
+            <div class="form-check">
+                <input onChange={()=>setSorted(true) }  class="form-check-input" type="radio"  checked={sorted}  name="flexRadioDefault"   />
+                <label class="form-check-label" for="flexRadioDefault1">
+                   data crescente {String(sorted)}
+                </label>
+            </div>
+            <div class="form-check">
+                <input onChange={()=>setSorted(false) } class="form-check-input" type="radio"    checked={!sorted}  name="flexRadioDefault"  />
+                <label class="form-check-label" for="flexRadioDefault2">
+                data decrescente {String(!sorted)}
+                </label>
+            </div>
+        </form>
     </div>
 }
 
