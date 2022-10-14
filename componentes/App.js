@@ -17,7 +17,7 @@ function App ()  {
 
             <div className="container mt-5">
                 <Filters />
-                <div className="timeline timeline--loaded" id="timeline-vertical">
+                <div className="timeline timeline--loaded mt-5" id="timeline-vertical">
                     <div className="timeline__wrap">
                         <div className="timeline__items" id="timeline__items">
 

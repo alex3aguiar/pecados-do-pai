@@ -1,20 +1,19 @@
-function Item({ texto, data, imagem, lado, tags }) {
-    return <div className={`timeline__item timeline__item--${lado ? "left" : "right"}`}>
 
-        <div className="timeline__item__inner">
-            <div className="timeline__content__wrap">
-                <div className="timeline__content">
-                    <h2>{data.toLocaleString()}</h2>
-                    <div className="line-break"> {texto}</div>
-                    <figure className="figure">
-                        <img src={imagem}
-                            className="figure-img img-fluid rounded" />
-                    </figure>
-                    <Tags tags={tags}/>
-                </div>
-            </div>
-        </div>
-    </div>;
+function Imagem({imagem}){
+    return imagem && imagem != '' && <img src={imagem} className="card-img-top" alt="..."/>
+}
+
+function Item({ texto, data, imagem, lado, tags }) {
+    return <div class="card mx-auto mb-5 shadow p-3 mb-5 bg-white rounded"   style={{width: "18rem"}}>
+    <Imagem imagem={imagem}/>
+    <div className="card-body">
+      <h5 className="card-title">{data.toLocaleString()}</h5>
+      <p className="card-text">{texto}</p>
+    </div>
+    <div className="card-body">
+    <Tags tags={tags}/>
+    </div>
+  </div>;
 }
 
 function Tags({ tags }) {
