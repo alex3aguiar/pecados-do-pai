@@ -19,11 +19,11 @@ function App ()  {
                 <Filters />
                 <div className="timeline timeline--loaded mt-5" id="timeline-vertical">
                     <div className="timeline__wrap">
-                        <div className="timeline__items" id="timeline__items">
+                        
 
-                            <ItemList></ItemList>
+                            <Sessao></Sessao>
 
-                        </div>
+                        
                     </div>
                 </div>
             </div>

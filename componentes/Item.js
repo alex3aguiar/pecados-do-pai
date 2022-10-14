@@ -4,7 +4,7 @@ function Imagem({imagem}){
 }
 
 function Item({ texto, data, imagem, lado, tags }) {
-    return <div class="card mx-auto mb-5 shadow p-3 mb-5 bg-white rounded"   style={{width: "18rem"}}>
+    return <div class="mx-auto  mb-5 card shadow p-3 mb-5 bg-white rounded"   style={{width: "18rem"}}>
     <Imagem imagem={imagem}/>
     <div className="card-body">
       <h5 className="card-title">{data.toLocaleString()}</h5>
