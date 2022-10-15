@@ -9,7 +9,7 @@ function App ()  {
         <SearchContext.Provider value={{ search, setSearch,sorted, setSorted }}>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">
+                    <a className="navbar-brand mx-auto" href="#">
                         Lui
                     </a>
                 </div>
