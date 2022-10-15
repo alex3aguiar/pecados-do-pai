@@ -20,10 +20,10 @@ const dados = {
             data: new Date(),
             texto: "Hugo cresceu numa família de nobres perto da floresta Nevenunca ",
             imagem: "imagens/mapa-costa-da-espada.png",
-            tags: [tiposTags.viagem, tiposTags.segredo],
+            tags: [tiposTags.viagem],
         }, {
             data: new Date(),
-            texto: "https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg",
+            texto: "hteste",
             imagem: "https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg",
             tags: [tiposTags.viagem, tiposTags.segredo],
         }]
