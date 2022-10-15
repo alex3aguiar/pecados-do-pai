@@ -5,9 +5,10 @@ const tiposTags = {
     segredo: "segredo",
 }
 const anoInicial = 1241
-const dados = {
-    0: {
+const dados = [
+    {
         dia: new Date(),
+        sessao : "sessão zero",
         eventos: [{
             data: new Date(anoInicial, 11, 17, 3, 24, 0),
             texto: `
@@ -21,6 +22,23 @@ const dados = {
             texto: "Hugo cresceu numa família de nobres perto da floresta Nevenunca ",
             imagem: "imagens/mapa-costa-da-espada.png",
             tags: [tiposTags.viagem],
+        },]
+    },
+    {
+        dia: new Date(),
+        sessao : "sessão 1",
+        eventos: [{
+            data: new Date(anoInicial, 11, 17, 3, 24, 0),
+            texto: `
+            Ndadasdasdasdm`,
+            imagem: "",
+            tags: [tiposTags.historia],
+        },
+        {
+            data: new Date(),
+            texto: "asdasdasd ",
+            imagem: "https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg",
+            tags: [tiposTags.viagem],
         }, {
             data: new Date(),
             texto: "hteste",
@@ -28,4 +46,4 @@ const dados = {
             tags: [tiposTags.viagem, tiposTags.segredo],
         }]
     }
-}
+]

@@ -2,11 +2,12 @@
 const SearchContext = React.createContext();
 
 const useState = React.useState;
-function App ()  {
+function App() {
     const [search, setSearch] = useState("");
-    const [ sorted, setSorted ] = React.useState(true);
+    const [sorted, setSorted] = React.useState(true);
+    const [sortedS, setSortedS] = React.useState(true);
     return <>
-        <SearchContext.Provider value={{ search, setSearch,sorted, setSorted }}>
+        <SearchContext.Provider value={{ search, setSearch, sorted, setSorted, sortedS, setSortedS }}>
             <nav className="navbar navbar-light bg-light">
                 <div className="container-fluid">
                     <a className="navbar-brand mx-auto" href="#">
@@ -19,11 +20,13 @@ function App ()  {
                 <Filters />
                 <div className="timeline timeline--loaded mt-5" id="timeline-vertical">
                     <div className="timeline__wrap">
-                        
 
-                            <Sessao></Sessao>
 
-                        
+                        {dados.map(a => (<Sessao sessao={a}></Sessao>) )
+                       
+                         [!sortedS ? 'reverse' : 'slice']()}
+
+
                     </div>
                 </div>
             </div>
@@ -34,4 +37,4 @@ function App ()  {
 
 
 
-ReactDOM.render(<App/>, document.getElementById('mydiv'))
+ReactDOM.render(<App />, document.getElementById('mydiv'))
