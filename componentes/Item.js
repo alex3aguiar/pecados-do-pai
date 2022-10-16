@@ -19,10 +19,11 @@ function Item({ texto, data, imagem, lado, tags }) {
 function Tags({ tags }) {
     return tags.map(a => {
         return {
-            [tiposTags.historia]: <button type="button" className="btn btn-primary">História</button>,
-            [tiposTags.viagem]: <button type="button" className="btn btn-success">Viagem</button>,
-            [tiposTags.batalha]: <button type="button" className="btn btn-danger">Batalha</button>,
-            [tiposTags.segredo]: <button type="button" className="btn btn-secondary">segredo</button>,
+            [tiposTags.historia]: <a className="link-primary">#História </a>,
+            [tiposTags.viagem]: <a className="link-success">#Viagem </a>,
+            [tiposTags.batalha]: <a className="link-danger">#Batalha </a>,
+            [tiposTags.segredo]: <a className="link-secondary">#Segredo </a>,
+            [tiposTags.habilidade]: <a className="link-secondary">#Habilida nova </a>,
         }[a]
     })
 }
