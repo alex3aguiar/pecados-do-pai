@@ -62,7 +62,7 @@ const dados = [
              data: new Date(anoInicial+11, 1, 1, 0, 0, 0),
              dataIncompleta:true,
             imagem : "https://i.pinimg.com/originals/2d/fe/1d/2dfe1d17b8e5fe8c5ab058863314cda9.png",
-            texto: `Uma vez uma ferreira anã, Barbara, Punhos de Marreta  viu Lui  tentando recriar um mecanismo mágico,
+            texto: `Uma vez uma ferreira anã, Bárbara, Punhos de Marreta  viu Lui  tentando recriar um mecanismo mágico,
              notou o talento dele e o adotou.
              Ele trabalhava ajudando ela, sempre muito interessado em aprender os mais diversos tipos de artesanato.
              E ela cuidava dele como um filho
@@ -80,20 +80,20 @@ const dados = [
              data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
              dataIncompleta:true,
             imagem : "imagens/lui.png",
-            texto: `Ele sempre demonstrava muita vontade de conhecer sua origem, quando chega aos 26 começa pedir ajuda da Barbara pra achar seus parentes, Barbara incentiva muito ele e ajuda`,
+            texto: `Ele sempre demonstrava muita vontade de conhecer sua origem, quando chega aos 26 começa pedir ajuda da Bárbara pra achar seus parentes, Bárbara incentiva muito ele e ajuda`,
             tags: [tiposTags.historia],
         },
         {
              data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
              dataIncompleta:true,
             imagem : "https://static1-br.millenium.gg/articles/7/97/67/@/119743-o-famigerado-nexus-de-summoners-rift-imagem-riot-games-article_m-1.png",
-            texto: `Barbara e Lui conseguem construir um maquina arcana que vai teletransportar o Lui para perto do parente mais próximo`,
+            texto: `Bárbara e Lui conseguem construir um maquina arcana que vai teletransportar o Lui para perto do parente mais próximo`,
             tags: [tiposTags.historia],
         },
         {
             data: new Date(anoInicial+26, 5, 4, 14, 0, 0),
             imagem : "https://cdn.jwplayer.com/v2/media/ExSbFRYO/poster.jpg?width=720",
-            texto: `Lui se prepara pra viagem para o desconhecido, se despede da barbara. barbara avisa que como eles tem muito pouca informação de quem ele está procurando, a precisão da máquina  é muito baixa, ele pode ser teletransportado para lado da pessoa,
+            texto: `Lui se prepara pra viagem para o desconhecido, se despede da Bárbara. Bárbara avisa que como eles tem muito pouca informação de quem ele está procurando, a precisão da máquina  é muito baixa, ele pode ser teletransportado para lado da pessoa,
             mas tb pode ficar a quilômetros  de distância. Lui  usa a máquina arcana e é teletransportado  para Baldur's Gate `,
             tags: [tiposTags.historia, tiposTags.viagem],
         },
