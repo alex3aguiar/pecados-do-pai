@@ -19,72 +19,92 @@ const dados = [
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial, 11, 17, 3, 24, 0),
+             dataIncompleta:true,
             texto: `Um casal de nobres de Nevenunca que não estavam conseguindo ter filhos naturalmnte adotou Hugo.
             Ele foi criado como se fosse um filho legítimo, sempre foi muito amado por seus país adotivos, até o dia da catastrofe no vulcão`,
             imagem: "imagens/mapa-costa-da-espada.png",
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial, 11, 17, 3, 24, 0),
+             dataIncompleta:true,
             texto: `Ninguém sabe para onde o Zézinho foi levado`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial, 11, 17, 3, 24, 0),
+             dataIncompleta:true,
             imagem : "https://i.pinimg.com/736x/c1/42/bf/c142bf52427dacdd7d7ee6f294b85c46.jpg",
             texto: `e o protagonista dessa história, Lui, foi levado pra um continente distante, Khorvaire`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+6, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem : "https://i.imgur.com/tMj8SQN.jpg",
             texto: `La ele cresceu na Cidade das Torres, mais especificamente em Cantonorte, Escadão.
             Nos primeiros anos ele cresceu sendo cuidado por moradores de rua, logo muito cedo aprendeu que conseguia ganhar um pão ou dois vendendo sucada para guilda dos artesões.
             Ele sempre teve muita vontade de descobrir sua origem
-            Ele observava os ferreiros, escultores, funileiros trabalhando`,
+            Ele observava os ferreiros, escultores, funileiros trabalhando.
+            Ainda bem criança ele sofre um acidente, uma roda de carroça passa por cima do seu braço esquerdo e ele o perde`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+6, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
+            imagem : "https://i.pinimg.com/736x/e7/ed/54/e7ed5472bafec55ab556e00f93f65ffc.jpg",
+            texto: `depois do acidente  Lui fica traumatizado, sempre fica com MUITO medo de situaçoes pirigosas`,
+            tags: [tiposTags.historia],
+        },
+        {
+             data: new Date(anoInicial+11, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem : "https://i.pinimg.com/originals/2d/fe/1d/2dfe1d17b8e5fe8c5ab058863314cda9.png",
             texto: `Uma vez uma ferreira anã, Barbara, Punhos de Marreta  viu Lui  tentando recriar um mecanismo mágico,
              notou o talento dele e o adotou.
              Ele trabalhava ajudando ela, sempre muito interessado em aprender os mais diversos tipos de artesanato.
-             E ela cuidava dele como um filho`,
+             E ela cuidava dele como um filho
+             A Anã dá pra um um braço de cobre como prótese`,
             tags: [tiposTags.historia, tiposTags.habilidade],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+25, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem : "imagens/lui.png",
             texto: `Aos 25 ele ja era uma membro respeitado na guilda dos artesãos`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem : "imagens/lui.png",
-            texto: `Ele sempre demonstrava muita vontade de conhecer sua origem, quando chega aos 26 começa pedir ajuda da Barbara pra achar seus parentes`,
+            texto: `Ele sempre demonstrava muita vontade de conhecer sua origem, quando chega aos 26 começa pedir ajuda da Barbara pra achar seus parentes, Barbara incentiva muito ele e ajuda`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem : "https://static1-br.millenium.gg/articles/7/97/67/@/119743-o-famigerado-nexus-de-summoners-rift-imagem-riot-games-article_m-1.png",
             texto: `Barbara e Lui conseguem construir um maquina arcana que vai teletransportar o Lui para perto do parente mais próximo`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+            data: new Date(anoInicial+26, 5, 4, 14, 0, 0),
             imagem : "https://cdn.jwplayer.com/v2/media/ExSbFRYO/poster.jpg?width=720",
-            texto: `Lui se prepara pra viagem para o desconhecido, se despede e usa a máquina arcana e é teletranspotado para Baldur's Gate `,
+            texto: `Lui se prepara pra viagem para o desconhecido, se despede da barbara. barbara avisa que como eles tem muito pouca informação de quem ele está procurando, a precisão da máquina  é muito baixa, ele pode ser teletrasnpotado para lado da pessoa,
+            mas tb pode ficar a quilometros de distancia.Lui  usa a máquina arcana e é teletranspotado para Baldur's Gate `,
             tags: [tiposTags.historia, tiposTags.viagem],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             texto: `Lui  começa a investigar pra ver se acha alguma informação`,
             tags: [tiposTags.historia],
         },
         {
-            data: new Date(),
+             data: new Date(anoInicial+26, 1, 1, 0, 0, 0),
+             dataIncompleta:true,
             imagem: "https://as2.ftcdn.net/v2/jpg/00/68/27/29/1000_F_68272941_RxnsIm3EgCbifoDHEe0ZUrTW1d95iDO0.jpg",
             texto: `f3r357r3l3 d0rm170rulu1 m3u,
             d1n c4m3r4 m34 4 unu14 d1n7r3 m1l104n3l3 d1n lum3 d35pr3 c4r3 n1m3n1 nu șt13c1n3e573
@@ -102,20 +122,10 @@ const dados = [
         eventos: [{
             data: new Date(anoInicial, 11, 17, 3, 24, 0),
             texto: `
-            Ndadasdasdasdm`,
+            teste123`,
             imagem: "",
             tags: [tiposTags.historia],
         },
-        {
-            data: new Date(),
-            texto: "asdasdasd ",
-            imagem: "https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg",
-            tags: [tiposTags.viagem],
-        }, {
-            data: new Date(),
-            texto: "hteste",
-            imagem: "https://img.olhardigital.com.br/wp-content/uploads/2020/11/20201124032733.jpg",
-            tags: [tiposTags.viagem, tiposTags.segredo],
-        }]
+]
     }
 ]
