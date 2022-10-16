@@ -13,7 +13,7 @@ const dados = [
         eventos: [{
             data: new Date(anoInicial, 11, 17, 3, 24, 0),
             texto: `
-            Nesse dia, uma mãe dá a luz a 3 irmãos gemeos, Hugo, Lui e Zézinho 
+            Nesse dia, uma mãe dá a luz a 3 irmãos gêmeos, Hugo, Lui e Zézinho 
             e por conta de uma profecia, os 3 foram separados assim que nasceram`,
             imagem: "imagens/foto-bebes.png",
             tags: [tiposTags.historia],
@@ -21,8 +21,9 @@ const dados = [
         {
              data: new Date(anoInicial, 11, 17, 3, 24, 0),
              dataIncompleta:true,
-            texto: `Um casal de nobres de Nevenunca que não estavam conseguindo ter filhos naturalmnte adotou Hugo.
-            Ele foi criado como se fosse um filho legítimo, sempre foi muito amado por seus país adotivos, até o dia da catastrofe no vulcão`,
+            texto: `Um casal de nobres de Nevenunca que não estavam conseguindo ter filhos naturalmente  adotou Hugo.
+            Ele foi criado como se fosse um filho legítimo, sempre foi muito amado por seus pais  adotivos,
+             até o dia da catástrofe  no vulcão`,
             imagem: "imagens/mapa-costa-da-espada.png",
             tags: [tiposTags.historia],
         },
@@ -44,7 +45,7 @@ const dados = [
              dataIncompleta:true,
             imagem : "https://i.imgur.com/tMj8SQN.jpg",
             texto: `La ele cresceu na Cidade das Torres, mais especificamente em Cantonorte, Escadão.
-            Nos primeiros anos ele cresceu sendo cuidado por moradores de rua, logo muito cedo aprendeu que conseguia ganhar um pão ou dois vendendo sucada para guilda dos artesões.
+            Nos primeiros anos ele cresceu sendo cuidado por moradores de rua, logo muito cedo aprendeu que conseguia ganhar um pão ou dois vendendo sucata  para guilda dos artesões.
             Ele sempre teve muita vontade de descobrir sua origem
             Ele observava os ferreiros, escultores, funileiros trabalhando.
             Ainda bem criança ele sofre um acidente, uma roda de carroça passa por cima do seu braço esquerdo e ele o perde`,
@@ -54,7 +55,7 @@ const dados = [
              data: new Date(anoInicial+6, 1, 1, 0, 0, 0),
              dataIncompleta:true,
             imagem : "https://i.pinimg.com/736x/e7/ed/54/e7ed5472bafec55ab556e00f93f65ffc.jpg",
-            texto: `depois do acidente  Lui fica traumatizado, sempre fica com MUITO medo de situaçoes pirigosas`,
+            texto: `depois do acidente  Lui fica traumatizado, sempre fica com MUITO medo de situações perigosas`,
             tags: [tiposTags.historia],
         },
         {
@@ -92,8 +93,8 @@ const dados = [
         {
             data: new Date(anoInicial+26, 5, 4, 14, 0, 0),
             imagem : "https://cdn.jwplayer.com/v2/media/ExSbFRYO/poster.jpg?width=720",
-            texto: `Lui se prepara pra viagem para o desconhecido, se despede da barbara. barbara avisa que como eles tem muito pouca informação de quem ele está procurando, a precisão da máquina  é muito baixa, ele pode ser teletrasnpotado para lado da pessoa,
-            mas tb pode ficar a quilometros de distancia.Lui  usa a máquina arcana e é teletranspotado para Baldur's Gate `,
+            texto: `Lui se prepara pra viagem para o desconhecido, se despede da barbara. barbara avisa que como eles tem muito pouca informação de quem ele está procurando, a precisão da máquina  é muito baixa, ele pode ser teletransportado para lado da pessoa,
+            mas tb pode ficar a quilômetros  de distância. Lui  usa a máquina arcana e é teletransportado  para Baldur's Gate `,
             tags: [tiposTags.historia, tiposTags.viagem],
         },
         {
